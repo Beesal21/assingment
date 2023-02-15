@@ -1,0 +1,95 @@
+/* Apply a common style to all sections */
+section {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Style the hero section */
+.hero {
+  background-color: #f8f8f8;
+  background-image: url('pic/background\ images.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #333;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+/* Style the skills section */
+.skills {
+  background-color:yellowgreen;
+  color:red;
+}
+
+.skills h2 {
+  color: #fff;
+}
+
+.programming-language {
+  font-style: italic;
+  list-style: none;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the GitHub section */
+.github {
+  background-color: peru;
+  color: #333;
+}
+
+.github h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.github p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-style: oblique;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.github img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+/* Style the social media section */
+.social-media {
+  background-color: #34bd78;
+  color: #333;
+}
+
+.social-media h2 {
+  text-align: center;
+  font-style: oblique;
+  font-size: 2rem;
+}
+
+.social-media ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  margin: 0 1rem;
+}
+
+.social-media img {
+  display: block;
+  width: 50px;
+}
